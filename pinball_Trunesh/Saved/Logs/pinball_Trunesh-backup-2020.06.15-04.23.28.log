@@ -1,0 +1,1839 @@
+﻿Log file open, 06/15/20 09:46:19
+LogInit: Display: Running engine for game: pinball_Trunesh
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.851635
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.15-04.16.20:231][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.15-04.16.20:231][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.15-04.16.20:231][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Engine.ini]
+[2020.06.15-04.16.20:231][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Engine.ini]
+[2020.06.15-04.16.20:232][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Engine.ini]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Engine.ini]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.15-04.16.20:232][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Engine.ini]
+[2020.06.15-04.16.20:232][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Engine.ini]
+[2020.06.15-04.16.20:236][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.15-04.16.20:236][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.15-04.16.20:237][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.15-04.16.20:238][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.15-04.16.20:238][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.15-04.16.20:238][  0]LogHAL: Display: Platform has ~ 8 GB [8424574976 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.15-04.16.20:238][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.15-04.16.20:238][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.15-04.16.20:238][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.15-04.16.20:239][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:239][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Scalability.ini]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.15-04.16.20:240][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.15-04.16.20:241][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Config/Windows/Engine.ini]
+[2020.06.15-04.16.20:241][  0]LogInit: Computer: DESKTOP-7QVL6SO
+[2020.06.15-04.16.20:241][  0]LogInit: User: Karunesh
+[2020.06.15-04.16.20:241][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.15-04.16.20:241][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.15-04.16.20:241][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.06.15-04.16.20:241][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.15-04.16.20:241][  0]LogMemory: Process Physical Memory: 115.41 MB used, 115.41 MB peak
+[2020.06.15-04.16.20:241][  0]LogMemory: Process Virtual Memory: 98.35 MB used, 98.35 MB peak
+[2020.06.15-04.16.20:241][  0]LogMemory: Physical Memory: 4792.48 MB used,  3241.82 MB free, 8034.30 MB total
+[2020.06.15-04.16.20:241][  0]LogMemory: Virtual Memory: 5147.34 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.06.15-04.16.20:249][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.15-04.16.20:294][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.15-04.16.20:295][  0]LogInit: Using OS detected language (en-US).
+[2020.06.15-04.16.20:295][  0]LogInit: Using OS detected locale (en-US).
+[2020.06.15-04.16.20:303][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.15-04.16.20:543][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.15-04.16.20:583][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.15-04.16.20:583][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.15-04.16.20:990][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.15-04.16.20:990][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.15-04.16.20:990][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.15-04.16.20:990][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.15-04.16.21:154][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2020.06.15-04.16.21:154][  0]LogD3D11RHI:       4018/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.15-04.16.21:175][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.06.15-04.16.21:175][  0]LogD3D11RHI:       128/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.06.15-04.16.21:178][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.15-04.16.21:178][  0]LogD3D11RHI:       0/0/4017 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.15-04.16.21:178][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.15-04.16.21:199][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.15-04.16.21:199][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2020.06.15-04.16.21:199][  0]LogWindows: EnumDisplayDevices:
+[2020.06.15-04.16.21:199][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.06.15-04.16.21:200][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.06.15-04.16.21:200][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.06.15-04.16.21:200][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2020.06.15-04.16.21:201][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2020.06.15-04.16.21:201][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2020.06.15-04.16.21:201][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2020.06.15-04.16.21:201][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2020.06.15-04.16.21:201][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.06.15-04.16.21:299][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.15-04.16.21:302][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.15-04.16.21:302][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.15-04.16.21:302][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.15-04.16.21:325][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.15-04.16.21:800][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.15-04.16.21:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.15-04.16.21:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.15-04.16.21:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.15-04.16.21:865][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.15-04.16.21:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.15-04.16.21:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.15-04.16.21:908][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.15-04.16.21:922][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.15-04.16.21:935][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.15-04.16.21:948][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.15-04.16.21:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.15-04.16.22:004][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.15-04.16.22:004][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.15-04.16.22:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.15-04.16.22:028][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.15-04.16.22:042][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.15-04.16.22:056][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.15-04.16.22:069][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.15-04.16.22:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.15-04.16.22:083][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.15-04.16.22:094][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.15-04.16.22:183][  0]LogShaderCompilers: Guid format shader working directory is -66 characters bigger than the processId version (../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Intermediate/Shaders/WorkingDirectory/13840/).
+[2020.06.15-04.16.22:183][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Karunesh/AppData/Local/Temp/UnrealShaderWorkingDir/1300F3DB4C2ED92DCC28E68D25204A62/'.
+[2020.06.15-04.16.22:184][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.15-04.16.22:184][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.15-04.16.22:184][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.15-04.16.23:517][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.15-04.16.23:600][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/Karunesh/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.15-04.16.23:601][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Karunesh/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.15-04.16.23:601][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.15-04.16.23:601][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.15-04.16.23:601][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.15-04.16.23:601][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.15-04.16.23:618][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.15-04.16.23:618][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.15-04.16.23:618][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.15-04.16.23:620][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Karunesh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.15-04.16.23:620][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.15-04.16.23:620][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.15-04.16.23:721][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.15-04.16.23:722][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.15-04.16.23:761][  0]LogAssetRegistry: FAssetRegistry took 0.0044 seconds to start up
+[2020.06.15-04.16.24:138][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.15-04.16.24:317][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.15-04.16.24:317][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.15-04.16.24:317][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.15-04.16.24:317][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.15-04.16.24:317][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.15-04.16.24:339][  0]LogNetVersion: pinball_Trunesh 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4184778678)
+[2020.06.15-04.16.25:033][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D4E1873880), frame # 0
+[2020.06.15-04.16.25:033][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D4E186E5C0), frame # 0
+[2020.06.15-04.16.25:035][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4E18E4800), frame # 0
+[2020.06.15-04.16.25:156][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.111083 seconds
+[2020.06.15-04.16.25:163][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.15-04.16.25:163][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.15-04.16.25:163][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.15-04.16.25:629][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.15-04.16.25:635][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.15-04.16.25:741][  0]SourceControl: Source control is disabled
+[2020.06.15-04.16.25:741][  0]SourceControl: Source control is disabled
+[2020.06.15-04.16.25:746][  0]SourceControl: Source control is disabled
+[2020.06.15-04.16.25:750][  0]SourceControl: Source control is disabled
+[2020.06.15-04.16.25:760][  0]SourceControl: Source control is disabled
+[2020.06.15-04.16.26:091][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.15-04.16.26:118][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.15-04.16.26:119][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.15-04.16.26:191][  0]LogOcInput: OculusInput pre-init called
+[2020.06.15-04.16.26:206][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.15-04.16.26:206][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.15-04.16.26:293][  0]LogEngine: Initializing Engine...
+[2020.06.15-04.16.26:295][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.15-04.16.26:295][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.15-04.16.26:297][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.15-04.16.26:476][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.15-04.16.26:486][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.15-04.16.26:486][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4E46A1C00), frame # 0
+[2020.06.15-04.16.26:486][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D4E46DC900), frame # 0
+[2020.06.15-04.16.26:511][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.16.26:511][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.16.26:511][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.16.26:511][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.16.26:511][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.16.26:511][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.16.26:511][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.16.26:511][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.16.26:512][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.16.26:512][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.16.26:523][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.16.26:523][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.16.26:710][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.16.26:716][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.16.26:719][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.16.26:719][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.16.26:720][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.16.26:722][  0]LogInit: FAudioDevice initialized.
+[2020.06.15-04.16.26:722][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.15-04.16.26:889][  0]LogDerivedDataCache: Saved boot cache 0.17s 75MB C:/Users/Karunesh/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.15-04.16.26:896][  0]LogInit: Texture streaming: Enabled
+[2020.06.15-04.16.26:918][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.15-04.16.26:918][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.15-04.16.26:923][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.15-04.16.26:997][  0]LogInit: Transaction tracking system initialized
+[2020.06.15-04.16.27:028][  0]BlueprintLog: New page: Editor Load
+[2020.06.15-04.16.27:121][  0]LocalizationService: Localization service is disabled
+[2020.06.15-04.16.27:461][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.15-04.16.27:461][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.15-04.16.27:476][  0]LogFileCache: Scanning file cache for directory 'D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/' took 0.00s
+[2020.06.15-04.16.27:512][  0]LogLinker: Warning: Failed to load '/Engine/BasicShapes/Cube': Can't find file.
+[2020.06.15-04.16.27:512][  0]LogLinker: Warning: Failed to load '/Engine/BasicShapes/Cube': Can't find file.
+[2020.06.15-04.16.27:512][  0]LogUObjectGlobals: Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Cube.Cube'
+[2020.06.15-04.16.27:972][  0]SourceControl: Source control is disabled
+[2020.06.15-04.16.27:972][  0]LogUnrealEdMisc: Loading editor; pre map load, took 10.983
+[2020.06.15-04.16.27:973][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.15-04.16.27:973][  0]LightingResults: New page: Lighting Build
+[2020.06.15-04.16.27:974][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.16.27:974][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.16.27:974][  0]MapCheck: New page: Map Check
+[2020.06.15-04.16.27:974][  0]LightingResults: New page: Lighting Build
+[2020.06.15-04.16.27:988][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4E46A1C00), frame # 0
+[2020.06.15-04.16.27:989][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D4E46DC900), frame # 0
+[2020.06.15-04.16.27:990][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.06.15-04.16.28:095][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.06.15-04.16.28:095][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4D674BE00), frame # 0
+[2020.06.15-04.16.28:096][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D4D6819800), frame # 0
+[2020.06.15-04.16.28:102][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.15-04.16.28:119][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.06.15-04.16.28:119][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.15-04.16.28:119][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.314ms to complete.
+[2020.06.15-04.16.28:120][  0]LogFileHelpers: Loading map 'Template_Default' took 0.147
+[2020.06.15-04.16.28:122][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.133
+[2020.06.15-04.16.28:717][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.16.28:729][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.16.28:740][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.16.28:750][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.16.28:802][  0]LogCollectionManager: Loaded 0 collections in 0.001322 seconds
+[2020.06.15-04.16.28:912][  0]LogFileCache: Scanning file cache for directory 'D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Collections/' took 0.00s
+[2020.06.15-04.16.28:912][  0]LogFileCache: Scanning file cache for directory 'D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Developers/Karunesh/Collections/' took 0.00s
+[2020.06.15-04.16.28:912][  0]LogFileCache: Scanning file cache for directory 'D:/Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Collections/' took 0.00s
+[2020.06.15-04.16.28:912][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 3427 classes and 821 folders.
+[2020.06.15-04.16.28:956][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.06.15-04.16.30:010][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.15-04.16.30:103][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.06.15-04.16.30:987][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.15-04.16.30:998][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.15-04.16.31:037][  0]LogSlate: Took 0.013271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.15-04.16.31:489][  0]LogRenderer: Reallocating scene render targets to support 1168x560 Format 10 NumSamples 1 (Frame:1).
+[2020.06.15-04.16.31:908][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.15-04.16.31:908][  0]LogLoad: (Engine Initialization) Total time: 14.92 seconds
+[2020.06.15-04.16.31:908][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.15-04.16.31:958][  0]LogAssetRegistry: Asset discovery search completed in 8.1983 seconds
+[2020.06.15-04.16.31:964][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.15-04.16.31:977][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.15-04.16.32:123][  0]LogSlate: Took 0.044144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.15-04.16.51:490][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.06.15-04.16.51:499][ 65]LogSlate: Took 0.000956 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.15-04.16.51:520][ 65]LightingResults: New page: Lighting Build
+[2020.06.15-04.16.51:520][ 65]LoadErrors: New page: Loading map: Pinball_Trunesh.umap
+[2020.06.15-04.16.51:521][ 65]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.16.51:521][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.16.51:521][ 65]MapCheck: New page: Map Check
+[2020.06.15-04.16.51:521][ 65]LightingResults: New page: Lighting Build
+[2020.06.15-04.16.51:536][ 65]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4D674BE00), frame # 2065
+[2020.06.15-04.16.51:536][ 65]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D4D6819800), frame # 2065
+[2020.06.15-04.16.51:537][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.06.15-04.16.52:591][ 65]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.16.52:591][ 65]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D48B0CA800), frame # 2065
+[2020.06.15-04.16.52:591][ 65]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D48B0FEC00), frame # 2065
+[2020.06.15-04.16.52:806][ 65]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.15-04.16.52:826][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.06.15-04.16.52:938][ 65]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.15-04.16.52:938][ 65]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.186ms to complete.
+[2020.06.15-04.16.52:939][ 65]LogFileHelpers: Loading map 'Pinball_Trunesh' took 1.447
+[2020.06.15-04.16.52:939][ 65]LogSlate: Window 'Open Level' being destroyed
+[2020.06.15-04.17.03:470][123]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.17.03:546][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.17.03:561][123]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:17:03 PM)
+[2020.06.15-04.17.03:579][123]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.15-04.17.03:586][123]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.15-04.17.03:586][123]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.17.03:609][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023012s)
+[2020.06.15-04.17.03:611][123]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.17.03:611][123]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4F77AA200), frame # 3123
+[2020.06.15-04.17.03:611][123]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D48B573240), frame # 3123
+[2020.06.15-04.17.03:611][123]LogPlayLevel: PIE: World Init took: (0.001723s)
+[2020.06.15-04.17.03:611][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.025227s)
+[2020.06.15-04.17.03:625][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.06.15-04.17.03:626][123]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.17.03:626][123]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.17.03:626][123]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.17.03:626][123]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.17.03:626][123]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.17.03:626][123]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.17.03:626][123]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.17.03:626][123]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.17.03:627][123]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.17.03:627][123]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.17.03:630][123]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.17.03:630][123]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.17.03:659][123]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.17.03:660][123]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.17.03:660][123]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.17.03:660][123]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.17.03:660][123]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.17.03:681][123]LogInit: FAudioDevice initialized.
+[2020.06.15-04.17.03:734][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.17.03:734][123]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.17.03:774][123]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.47.03
+[2020.06.15-04.17.03:785][123]LogWorld: Bringing up level for play took: 0.014389
+[2020.06.15-04.17.03:786][123]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.06.15-04.17.03:815][123]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.06.15-04.17.03:913][123]PIE: Server logged in
+[2020.06.15-04.17.03:914][123]PIE: Play in editor total start time 0.37 seconds.
+[2020.06.15-04.17.04:041][124]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.06.15-04.17.16:592][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.17.16:592][148]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.17.16:602][148]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.17.16:613][148]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.17.16:614][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.17.16:626][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.17.16:628][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.17.16:675][148]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D48B573240), frame # 4148
+[2020.06.15-04.17.16:675][148]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4F77AA200), frame # 4148
+[2020.06.15-04.17.16:677][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.06.15-04.17.16:725][149]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.06.15-04.17.25:104][944]LogSlate: Took 0.018298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.15-04.17.34:915][755]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.17.34:935][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.17.34:935][755]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:17:34 PM)
+[2020.06.15-04.17.34:935][755]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.17.34:949][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014844s)
+[2020.06.15-04.17.34:951][755]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.17.34:951][755]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4F77AB800), frame # 5755
+[2020.06.15-04.17.34:952][755]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D48B2EB100), frame # 5755
+[2020.06.15-04.17.34:952][755]LogPlayLevel: PIE: World Init took: (0.002494s)
+[2020.06.15-04.17.34:952][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.017550s)
+[2020.06.15-04.17.34:967][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.06.15-04.17.34:969][755]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.17.34:970][755]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.17.34:970][755]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.17.34:970][755]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.17.34:970][755]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.17.34:970][755]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.17.34:970][755]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.17.34:970][755]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.17.34:970][755]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.17.34:971][755]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.17.34:973][755]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.17.34:973][755]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.17.35:001][755]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.17.35:001][755]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.17.35:001][755]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.17.35:001][755]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.17.35:002][755]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.17.35:023][755]LogInit: FAudioDevice initialized.
+[2020.06.15-04.17.35:075][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.17.35:075][755]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.17.35:079][755]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.47.35
+[2020.06.15-04.17.35:080][755]LogWorld: Bringing up level for play took: 0.003770
+[2020.06.15-04.17.35:080][755]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.06.15-04.17.35:087][755]PIE: Server logged in
+[2020.06.15-04.17.35:088][755]PIE: Play in editor total start time 0.156 seconds.
+[2020.06.15-04.17.58:916][431]LogActor: Warning: BP_Ball3_2 is outside the world bounds!
+[2020.06.15-04.17.58:929][432]LogActor: Warning: BP_Ball2_2 is outside the world bounds!
+[2020.06.15-04.18.14:061][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.18.14:062][515]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.18.14:062][515]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.18.14:070][515]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.18.14:071][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.18.14:080][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.18.14:082][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.18.14:127][515]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D48B2EB100), frame # 8515
+[2020.06.15-04.18.14:127][515]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4F77AB800), frame # 8515
+[2020.06.15-04.18.14:128][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.06.15-04.18.14:162][516]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.06.15-04.18.22:277][330]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.18.22:300][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.18.22:300][330]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:18:22 PM)
+[2020.06.15-04.18.22:300][330]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.18.22:318][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018319s)
+[2020.06.15-04.18.22:320][330]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.18.22:320][330]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4EA18E400), frame # 9330
+[2020.06.15-04.18.22:320][330]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D48B3C8A40), frame # 9330
+[2020.06.15-04.18.22:320][330]LogPlayLevel: PIE: World Init took: (0.001902s)
+[2020.06.15-04.18.22:320][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.020398s)
+[2020.06.15-04.18.22:336][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.06.15-04.18.22:337][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.18.22:337][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.18.22:337][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.18.22:337][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.18.22:337][330]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.18.22:337][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.18.22:337][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.18.22:337][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.18.22:337][330]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.18.22:337][330]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.18.22:339][330]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.18.22:339][330]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.18.22:368][330]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.18.22:369][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.18.22:369][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.18.22:369][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.18.22:369][330]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.18.22:390][330]LogInit: FAudioDevice initialized.
+[2020.06.15-04.18.22:431][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.18.22:432][330]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.18.22:436][330]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.48.22
+[2020.06.15-04.18.22:437][330]LogWorld: Bringing up level for play took: 0.003970
+[2020.06.15-04.18.22:437][330]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.06.15-04.18.22:461][330]PIE: Server logged in
+[2020.06.15-04.18.22:463][330]PIE: Play in editor total start time 0.166 seconds.
+[2020.06.15-04.18.35:882][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.18.35:882][449]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.18.35:882][449]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.18.35:889][449]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.18.35:890][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.18.35:906][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.18.35:908][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.18.35:954][449]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D48B3C8A40), frame # 10449
+[2020.06.15-04.18.35:954][449]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4EA18E400), frame # 10449
+[2020.06.15-04.18.35:955][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.06.15-04.18.35:985][450]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.06.15-04.19.43:690][551]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.19.43:710][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.19.43:710][551]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:19:43 PM)
+[2020.06.15-04.19.43:710][551]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.19.43:725][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014784s)
+[2020.06.15-04.19.43:726][551]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.19.43:726][551]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D493DA9200), frame # 16551
+[2020.06.15-04.19.43:726][551]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D504050E00), frame # 16551
+[2020.06.15-04.19.43:727][551]LogPlayLevel: PIE: World Init took: (0.001641s)
+[2020.06.15-04.19.43:727][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.016615s)
+[2020.06.15-04.19.43:742][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.06.15-04.19.43:744][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.19.43:744][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.19.43:744][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.19.43:744][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.19.43:744][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.19.43:744][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.19.43:744][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.19.43:744][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.19.43:744][551]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.19.43:744][551]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.19.43:747][551]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.19.43:747][551]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.19.43:778][551]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.19.43:778][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.19.43:778][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.19.43:778][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.19.43:778][551]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.19.43:799][551]LogInit: FAudioDevice initialized.
+[2020.06.15-04.19.43:845][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.19.43:845][551]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.19.43:850][551]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.49.43
+[2020.06.15-04.19.43:850][551]LogWorld: Bringing up level for play took: 0.004199
+[2020.06.15-04.19.43:850][551]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.06.15-04.19.43:857][551]PIE: Server logged in
+[2020.06.15-04.19.43:859][551]PIE: Play in editor total start time 0.152 seconds.
+[2020.06.15-04.19.50:241][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.19.50:241][989]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.19.50:242][989]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.19.50:256][989]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.19.50:257][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.19.50:263][989]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.19.50:266][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.19.50:317][989]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D493DA9200), frame # 16989
+[2020.06.15-04.19.50:317][989]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D504050E00), frame # 16989
+[2020.06.15-04.19.50:318][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.06.15-04.19.50:351][990]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.06.15-04.19.53:138][253]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.19.53:157][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.19.53:157][253]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:19:53 PM)
+[2020.06.15-04.19.53:157][253]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.19.53:171][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014303s)
+[2020.06.15-04.19.53:173][253]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.19.53:173][253]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D51036FC00), frame # 17253
+[2020.06.15-04.19.53:173][253]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D493D702C0), frame # 17253
+[2020.06.15-04.19.53:173][253]LogPlayLevel: PIE: World Init took: (0.001960s)
+[2020.06.15-04.19.53:173][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.016435s)
+[2020.06.15-04.19.53:188][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.06.15-04.19.53:189][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.19.53:190][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.19.53:190][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.19.53:190][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.19.53:190][253]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.19.53:190][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.19.53:190][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.19.53:190][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.19.53:190][253]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.19.53:190][253]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.19.53:192][253]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.19.53:192][253]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.19.53:221][253]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.19.53:221][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.19.53:221][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.19.53:221][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.19.53:221][253]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.19.53:242][253]LogInit: FAudioDevice initialized.
+[2020.06.15-04.19.53:270][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.19.53:270][253]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.19.53:274][253]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.49.53
+[2020.06.15-04.19.53:275][253]LogWorld: Bringing up level for play took: 0.003752
+[2020.06.15-04.19.53:275][253]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.06.15-04.19.53:282][253]PIE: Server logged in
+[2020.06.15-04.19.53:284][253]PIE: Play in editor total start time 0.129 seconds.
+[2020.06.15-04.20.09:161][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.20.09:161][581]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.20.09:162][581]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.20.09:173][581]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.20.09:174][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.20.09:186][581]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.20.09:188][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.20.09:235][581]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D493D702C0), frame # 18581
+[2020.06.15-04.20.09:235][581]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D51036FC00), frame # 18581
+[2020.06.15-04.20.09:236][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.06.15-04.20.09:276][582]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.06.15-04.20.10:803][721]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.20.10:822][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.20.10:822][721]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:20:10 PM)
+[2020.06.15-04.20.10:822][721]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.20.10:836][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013785s)
+[2020.06.15-04.20.10:837][721]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.20.10:837][721]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4FF510A00), frame # 18721
+[2020.06.15-04.20.10:837][721]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D504050E00), frame # 18721
+[2020.06.15-04.20.10:837][721]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2020.06.15-04.20.10:837][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.015391s)
+[2020.06.15-04.20.10:852][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.06.15-04.20.10:853][721]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.20.10:854][721]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.20.10:854][721]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.20.10:854][721]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.20.10:854][721]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.20.10:854][721]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.20.10:854][721]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.20.10:854][721]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.20.10:854][721]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.20.10:854][721]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.20.10:856][721]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.20.10:856][721]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.20.10:884][721]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.20.10:884][721]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.20.10:885][721]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.20.10:885][721]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.20.10:885][721]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.20.10:886][721]LogInit: FAudioDevice initialized.
+[2020.06.15-04.20.10:937][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.20.10:937][721]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.20.10:941][721]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.50.10
+[2020.06.15-04.20.10:942][721]LogWorld: Bringing up level for play took: 0.003877
+[2020.06.15-04.20.10:942][721]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.06.15-04.20.10:949][721]PIE: Server logged in
+[2020.06.15-04.20.10:951][721]PIE: Play in editor total start time 0.131 seconds.
+[2020.06.15-04.20.19:271][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.20.19:271][402]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.20.19:272][402]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.20.19:284][402]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.20.19:284][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.20.19:299][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.20.19:301][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.20.19:348][402]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D504050E00), frame # 19402
+[2020.06.15-04.20.19:348][402]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4FF510A00), frame # 19402
+[2020.06.15-04.20.19:349][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.06.15-04.20.19:382][403]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.06.15-04.20.20:543][502]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.20.20:563][502]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.20.20:563][502]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:20:20 PM)
+[2020.06.15-04.20.20:563][502]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.20.20:578][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014655s)
+[2020.06.15-04.20.20:579][502]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.20.20:579][502]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4D7709E00), frame # 19502
+[2020.06.15-04.20.20:579][502]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D503E5D080), frame # 19502
+[2020.06.15-04.20.20:580][502]LogPlayLevel: PIE: World Init took: (0.001637s)
+[2020.06.15-04.20.20:580][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.016477s)
+[2020.06.15-04.20.20:594][502]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.06.15-04.20.20:595][502]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.20.20:595][502]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.20.20:595][502]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.20.20:595][502]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.20.20:595][502]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.20.20:595][502]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.20.20:595][502]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.20.20:595][502]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.20.20:596][502]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.20.20:596][502]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.20.20:598][502]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.20.20:598][502]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.20.20:626][502]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.20.20:627][502]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.20.20:627][502]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.20.20:627][502]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.20.20:627][502]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.20.20:648][502]LogInit: FAudioDevice initialized.
+[2020.06.15-04.20.20:696][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.20.20:696][502]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.20.20:701][502]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.50.20
+[2020.06.15-04.20.20:701][502]LogWorld: Bringing up level for play took: 0.003649
+[2020.06.15-04.20.20:701][502]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.06.15-04.20.20:709][502]PIE: Server logged in
+[2020.06.15-04.20.20:710][502]PIE: Play in editor total start time 0.149 seconds.
+[2020.06.15-04.20.36:882][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.20.36:882][849]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.20.36:882][849]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.20.36:889][849]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.20.36:890][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.20.36:902][849]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.20.36:904][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.20.36:949][849]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D503E5D080), frame # 20849
+[2020.06.15-04.20.36:949][849]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4D7709E00), frame # 20849
+[2020.06.15-04.20.36:950][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.06.15-04.20.36:982][850]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.06.15-04.20.41:762][330]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.20.41:781][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.20.41:781][330]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:20:41 PM)
+[2020.06.15-04.20.41:781][330]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.20.41:796][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014836s)
+[2020.06.15-04.20.41:798][330]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.20.41:798][330]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D50AFB3000), frame # 21330
+[2020.06.15-04.20.41:798][330]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D48B07D080), frame # 21330
+[2020.06.15-04.20.41:798][330]LogPlayLevel: PIE: World Init took: (0.001586s)
+[2020.06.15-04.20.41:798][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.016587s)
+[2020.06.15-04.20.41:813][330]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.06.15-04.20.41:814][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.20.41:814][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.20.41:814][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.20.41:814][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.20.41:814][330]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.20.41:814][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.20.41:814][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.20.41:814][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.20.41:814][330]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.20.41:814][330]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.20.41:816][330]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.20.41:816][330]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.20.41:846][330]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.20.41:847][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.20.41:847][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.20.41:847][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.20.41:847][330]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.20.41:868][330]LogInit: FAudioDevice initialized.
+[2020.06.15-04.20.41:926][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.20.41:927][330]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.20.41:931][330]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.50.41
+[2020.06.15-04.20.41:931][330]LogWorld: Bringing up level for play took: 0.003889
+[2020.06.15-04.20.41:932][330]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.06.15-04.20.41:939][330]PIE: Server logged in
+[2020.06.15-04.20.41:940][330]PIE: Play in editor total start time 0.161 seconds.
+[2020.06.15-04.20.53:061][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.20.53:061][249]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.20.53:062][249]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.20.53:072][249]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.20.53:073][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.20.53:087][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.20.53:089][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.20.53:135][249]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D48B07D080), frame # 22249
+[2020.06.15-04.20.53:135][249]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D50AFB3000), frame # 22249
+[2020.06.15-04.20.53:136][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.06.15-04.20.53:169][250]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.06.15-04.20.57:360][669]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.20.57:379][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.20.57:379][669]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:20:57 PM)
+[2020.06.15-04.20.57:379][669]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.20.57:393][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014283s)
+[2020.06.15-04.20.57:394][669]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.20.57:395][669]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4936B9000), frame # 22669
+[2020.06.15-04.20.57:395][669]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D503E5D940), frame # 22669
+[2020.06.15-04.20.57:395][669]LogPlayLevel: PIE: World Init took: (0.001461s)
+[2020.06.15-04.20.57:395][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.015904s)
+[2020.06.15-04.20.57:409][669]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.06.15-04.20.57:410][669]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.20.57:410][669]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.20.57:410][669]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.20.57:410][669]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.20.57:410][669]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.20.57:410][669]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.20.57:410][669]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.20.57:410][669]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.20.57:411][669]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.20.57:411][669]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.20.57:413][669]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.20.57:413][669]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.20.57:441][669]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.20.57:442][669]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.20.57:442][669]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.20.57:442][669]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.20.57:442][669]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.20.57:462][669]LogInit: FAudioDevice initialized.
+[2020.06.15-04.20.57:513][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.20.57:513][669]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.20.57:518][669]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.50.57
+[2020.06.15-04.20.57:518][669]LogWorld: Bringing up level for play took: 0.003579
+[2020.06.15-04.20.57:518][669]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.06.15-04.20.57:526][669]PIE: Server logged in
+[2020.06.15-04.20.57:529][669]PIE: Play in editor total start time 0.151 seconds.
+[2020.06.15-04.21.03:822][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.21.03:822][171]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.21.03:822][171]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.21.03:830][171]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.21.03:831][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.21.03:843][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.21.03:845][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.21.03:902][171]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D503E5D940), frame # 23171
+[2020.06.15-04.21.03:902][171]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4936B9000), frame # 23171
+[2020.06.15-04.21.03:904][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.06.15-04.21.03:933][172]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.06.15-04.21.15:653][281]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger
+[2020.06.15-04.21.16:580][281]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 125 classes and 0 folders.
+[2020.06.15-04.21.18:668][281]LogSlate: Took 0.000941 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.15-04.21.28:513][790]BlueprintLog: New page: Compile BP_Plunger
+[2020.06.15-04.21.28:642][790]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.06.15-04.21.28:748][790]LogSlate: Took 0.014737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.15-04.21.29:849][822]LogSavePackage: Moving '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/BP_Plunger15FE0DC843B1A756BF9D71AB3184E381.tmp' to '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Blueprints/BP_Plunger.uasset'
+[2020.06.15-04.21.29:882][822]AssetCheck: New page: Asset Save: BP_Plunger
+[2020.06.15-04.21.29:883][822]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Plunger.BP_Plunger
+[2020.06.15-04.21.33:546][127]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.21.33:566][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.21.33:566][127]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:21:33 PM)
+[2020.06.15-04.21.33:566][127]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.21.33:581][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015157s)
+[2020.06.15-04.21.33:583][127]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.21.33:583][127]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D51A0B3E00), frame # 25127
+[2020.06.15-04.21.33:583][127]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D51A138A40), frame # 25127
+[2020.06.15-04.21.33:583][127]LogPlayLevel: PIE: World Init took: (0.001650s)
+[2020.06.15-04.21.33:583][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.016973s)
+[2020.06.15-04.21.33:615][127]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.06.15-04.21.33:618][127]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.21.33:618][127]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.21.33:618][127]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.21.33:618][127]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.21.33:618][127]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.21.33:618][127]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.21.33:618][127]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.21.33:618][127]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.21.33:618][127]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.21.33:619][127]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.21.33:621][127]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.21.33:621][127]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.21.33:653][127]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.21.33:653][127]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.21.33:653][127]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.21.33:653][127]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.21.33:654][127]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.21.33:675][127]LogInit: FAudioDevice initialized.
+[2020.06.15-04.21.33:730][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.21.33:730][127]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.21.33:735][127]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.51.33
+[2020.06.15-04.21.33:735][127]LogWorld: Bringing up level for play took: 0.003694
+[2020.06.15-04.21.33:735][127]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.06.15-04.21.33:744][127]PIE: Server logged in
+[2020.06.15-04.21.33:747][127]PIE: Play in editor total start time 0.183 seconds.
+[2020.06.15-04.21.38:731][483]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.21.38:731][483]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.21.38:732][483]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.21.38:748][483]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.21.38:749][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.21.38:760][483]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.21.38:764][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.21.38:831][483]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D51A138A40), frame # 25483
+[2020.06.15-04.21.38:831][483]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D51A0B3E00), frame # 25483
+[2020.06.15-04.21.38:834][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.06.15-04.21.38:873][484]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.06.15-04.21.40:737][641]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.21.40:758][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.21.40:759][641]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:21:40 PM)
+[2020.06.15-04.21.40:759][641]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.21.40:773][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013832s)
+[2020.06.15-04.21.40:774][641]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.21.40:774][641]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4EA3CB400), frame # 25641
+[2020.06.15-04.21.40:774][641]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D5455F6840), frame # 25641
+[2020.06.15-04.21.40:774][641]LogPlayLevel: PIE: World Init took: (0.001464s)
+[2020.06.15-04.21.40:774][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.015464s)
+[2020.06.15-04.21.40:804][641]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.06.15-04.21.40:805][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.21.40:805][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.21.40:805][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.21.40:805][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.21.40:805][641]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.21.40:805][641]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.21.40:805][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.21.40:805][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.21.40:806][641]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.21.40:806][641]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.21.40:808][641]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.21.40:808][641]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.21.40:836][641]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.21.40:836][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.21.40:836][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.21.40:836][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.21.40:837][641]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.21.40:857][641]LogInit: FAudioDevice initialized.
+[2020.06.15-04.21.40:909][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.21.40:909][641]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.21.40:913][641]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.51.40
+[2020.06.15-04.21.40:914][641]LogWorld: Bringing up level for play took: 0.003972
+[2020.06.15-04.21.40:914][641]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.06.15-04.21.40:923][641]PIE: Server logged in
+[2020.06.15-04.21.40:926][641]PIE: Play in editor total start time 0.169 seconds.
+[2020.06.15-04.21.54:531][662]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.21.54:532][662]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.21.54:532][662]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.21.54:544][662]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.21.54:547][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.21.54:559][662]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.21.54:562][662]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.21.54:627][662]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D5455F6840), frame # 26662
+[2020.06.15-04.21.54:627][662]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4EA3CB400), frame # 26662
+[2020.06.15-04.21.54:630][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2020.06.15-04.21.54:663][663]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.06.15-04.21.58:508][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.06.15-04.21.58:592][  2]LogSavePackage: Moving '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Pinball_TruneshAE31538F4950F50250CFE89EB446BCA3.tmp' to '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Pinball_Trunesh.umap'
+[2020.06.15-04.21.58:681][  2]LogSavePackage: Moving '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Pinball_Trunesh_BuiltDataD0DA9C004E9E8599699CE5827F5B1233.tmp' to '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Pinball_Trunesh_BuiltData.uasset'
+[2020.06.15-04.21.58:696][  2]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.15-04.21.58:696][  2]LogContentValidation: Display: Validating World /Game/Pinball_Trunesh.Pinball_Trunesh
+[2020.06.15-04.21.58:696][  2]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Pinball_Trunesh_BuiltData.Pinball_Trunesh_BuiltData
+[2020.06.15-04.22.00:782][186]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.22.00:801][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.22.00:802][186]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:22:00 PM)
+[2020.06.15-04.22.00:802][186]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.22.00:817][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014766s)
+[2020.06.15-04.22.00:818][186]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.22.00:818][186]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D50B16CA00), frame # 27186
+[2020.06.15-04.22.00:818][186]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D48AF365C0), frame # 27186
+[2020.06.15-04.22.00:819][186]LogPlayLevel: PIE: World Init took: (0.001642s)
+[2020.06.15-04.22.00:819][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.016626s)
+[2020.06.15-04.22.00:850][186]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2020.06.15-04.22.00:851][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.22.00:851][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.22.00:852][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.22.00:852][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.22.00:852][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.22.00:852][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.22.00:852][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.22.00:852][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.22.00:852][186]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.22.00:852][186]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.22.00:854][186]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.22.00:854][186]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.22.00:884][186]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.22.00:885][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.22.00:885][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.22.00:885][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.22.00:885][186]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.22.00:906][186]LogInit: FAudioDevice initialized.
+[2020.06.15-04.22.00:958][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.22.00:958][186]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.22.00:962][186]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.52.00
+[2020.06.15-04.22.00:963][186]LogWorld: Bringing up level for play took: 0.003677
+[2020.06.15-04.22.00:963][186]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.06.15-04.22.00:971][186]PIE: Server logged in
+[2020.06.15-04.22.00:974][186]PIE: Play in editor total start time 0.175 seconds.
+[2020.06.15-04.22.10:011][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.22.10:011][851]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.22.10:012][851]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.22.10:024][851]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.22.10:025][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.22.10:038][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.22.10:041][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.22.10:104][851]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D48AF365C0), frame # 27851
+[2020.06.15-04.22.10:104][851]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D50B16CA00), frame # 27851
+[2020.06.15-04.22.10:107][851]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.06.15-04.22.10:140][852]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.06.15-04.22.11:527][971]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.22.11:547][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.22.11:547][971]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:22:11 PM)
+[2020.06.15-04.22.11:547][971]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.22.11:562][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014611s)
+[2020.06.15-04.22.11:564][971]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.22.11:564][971]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D48B39F600), frame # 27971
+[2020.06.15-04.22.11:564][971]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D4D6765440), frame # 27971
+[2020.06.15-04.22.11:564][971]LogPlayLevel: PIE: World Init took: (0.002250s)
+[2020.06.15-04.22.11:564][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.017052s)
+[2020.06.15-04.22.11:595][971]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.06.15-04.22.11:596][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.22.11:596][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.22.11:596][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.22.11:596][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.22.11:596][971]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.22.11:596][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.22.11:596][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.22.11:596][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.22.11:596][971]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.22.11:596][971]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.22.11:598][971]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.22.11:598][971]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.22.11:628][971]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.22.11:628][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.22.11:628][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.22.11:628][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.22.11:629][971]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.22.11:649][971]LogInit: FAudioDevice initialized.
+[2020.06.15-04.22.11:699][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.22.11:699][971]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.22.11:703][971]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.52.11
+[2020.06.15-04.22.11:703][971]LogWorld: Bringing up level for play took: 0.003634
+[2020.06.15-04.22.11:703][971]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.06.15-04.22.11:713][971]PIE: Server logged in
+[2020.06.15-04.22.11:715][971]PIE: Play in editor total start time 0.17 seconds.
+[2020.06.15-04.22.19:942][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.22.19:942][576]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.22.19:943][576]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.22.19:958][576]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.22.19:960][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.22.19:973][576]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.22.19:977][576]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.22.20:039][576]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D4D6765440), frame # 28576
+[2020.06.15-04.22.20:039][576]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D48B39F600), frame # 28576
+[2020.06.15-04.22.20:042][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.06.15-04.22.20:076][577]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.06.15-04.22.31:031][656]LogEditorViewport: Clicking on Actor (LMB): BP_Plunger_C (BP_Plunger)
+[2020.06.15-04.22.48:038][119]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.22.48:062][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.22.48:062][119]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:22:48 PM)
+[2020.06.15-04.22.48:062][119]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.22.48:078][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015476s)
+[2020.06.15-04.22.48:080][119]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.22.48:080][119]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D53F27DA00), frame # 31119
+[2020.06.15-04.22.48:080][119]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D51A0A2AC0), frame # 31119
+[2020.06.15-04.22.48:080][119]LogPlayLevel: PIE: World Init took: (0.001917s)
+[2020.06.15-04.22.48:080][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.017569s)
+[2020.06.15-04.22.48:111][119]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2020.06.15-04.22.48:114][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.22.48:114][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.22.48:114][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.22.48:114][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.22.48:114][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.22.48:114][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.22.48:114][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.22.48:114][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.22.48:114][119]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.22.48:114][119]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.22.48:116][119]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.22.48:116][119]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.22.48:144][119]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.22.48:144][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.22.48:144][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.22.48:144][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.22.48:144][119]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.22.48:165][119]LogInit: FAudioDevice initialized.
+[2020.06.15-04.22.48:217][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.22.48:217][119]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.22.48:221][119]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.52.48
+[2020.06.15-04.22.48:222][119]LogWorld: Bringing up level for play took: 0.003767
+[2020.06.15-04.22.48:222][119]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.06.15-04.22.48:230][119]PIE: Server logged in
+[2020.06.15-04.22.48:232][119]PIE: Play in editor total start time 0.177 seconds.
+[2020.06.15-04.22.52:922][411]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.22.52:922][411]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.22.52:923][411]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.22.52:932][411]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.22.52:933][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.22.52:949][411]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.22.52:955][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.22.53:016][411]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D51A0A2AC0), frame # 31411
+[2020.06.15-04.22.53:016][411]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D53F27DA00), frame # 31411
+[2020.06.15-04.22.53:019][411]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.06.15-04.22.53:053][412]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.06.15-04.22.54:679][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.06.15-04.22.54:746][558]LogSavePackage: Moving '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Pinball_Trunesh3BBB593D46BE7011690783AEB7FA963C.tmp' to '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Pinball_Trunesh.umap'
+[2020.06.15-04.22.54:797][558]LogSavePackage: Moving '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Pinball_Trunesh_BuiltData3AD65B9A4896B3CA6415C394A602745B.tmp' to '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Pinball_Trunesh_BuiltData.uasset'
+[2020.06.15-04.22.54:819][558]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.15-04.22.54:819][558]LogContentValidation: Display: Validating World /Game/Pinball_Trunesh.Pinball_Trunesh
+[2020.06.15-04.22.54:819][558]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Pinball_Trunesh_BuiltData.Pinball_Trunesh_BuiltData
+[2020.06.15-04.23.01:536][236]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.06.15-04.23.01:557][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.15-04.23.01:557][236]PIE: New page: PIE session: Pinball_Trunesh (Jun 15, 2020, 3:23:01 PM)
+[2020.06.15-04.23.01:557][236]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.23.01:574][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016688s)
+[2020.06.15-04.23.01:575][236]LogAIModule: Creating AISystem for world Pinball_Trunesh
+[2020.06.15-04.23.01:575][236]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D4EA3CA000), frame # 32236
+[2020.06.15-04.23.01:575][236]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D51A0A0400), frame # 32236
+[2020.06.15-04.23.01:576][236]LogPlayLevel: PIE: World Init took: (0.001511s)
+[2020.06.15-04.23.01:576][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Pinball_Trunesh.Pinball_Trunesh to /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh (0.018378s)
+[2020.06.15-04.23.01:606][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.06.15-04.23.01:607][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.15-04.23.01:607][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.15-04.23.01:607][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.15-04.23.01:607][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.15-04.23.01:607][236]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.15-04.23.01:607][236]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.15-04.23.01:607][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.15-04.23.01:607][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.15-04.23.01:608][236]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.15-04.23.01:608][236]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.15-04.23.01:610][236]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.15-04.23.01:610][236]LogAudioMixer: Display: 1: FrontRight
+[2020.06.15-04.23.01:639][236]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.15-04.23.01:639][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.15-04.23.01:639][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.15-04.23.01:639][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.15-04.23.01:640][236]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.15-04.23.01:660][236]LogInit: FAudioDevice initialized.
+[2020.06.15-04.23.01:705][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.23.01:706][236]LogLoad: Game class is 'PinBallGamemode_C'
+[2020.06.15-04.23.01:710][236]LogWorld: Bringing World /Game/UEDPIE_0_Pinball_Trunesh.Pinball_Trunesh up for play (max tick rate 0) at 2020.06.15-09.53.01
+[2020.06.15-04.23.01:711][236]LogWorld: Bringing up level for play took: 0.003976
+[2020.06.15-04.23.01:711][236]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.06.15-04.23.01:718][236]PIE: Server logged in
+[2020.06.15-04.23.01:721][236]PIE: Play in editor total start time 0.166 seconds.
+[2020.06.15-04.23.22:382][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.15-04.23.22:382][565]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Pinball_Trunesh
+[2020.06.15-04.23.22:383][565]LogSlate: Window 'pinball_Trunesh Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2020.06.15-04.23.22:392][565]LogWorld: UWorld::CleanupWorld for Pinball_Trunesh, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.22:393][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.23.22:405][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.15-04.23.22:409][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.23.22:469][565]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D51A0A0400), frame # 33565
+[2020.06.15-04.23.22:469][565]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4EA3CA000), frame # 33565
+[2020.06.15-04.23.22:472][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.06.15-04.23.22:506][566]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.06.15-04.23.25:600][738]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.06.15-04.23.25:631][738]LogSlate: Window 'BP_Plunger' being destroyed
+[2020.06.15-04.23.25:636][738]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.25:636][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.15-04.23.25:812][738]LogSlate: Window 'pinball_Trunesh - Unreal Editor' being destroyed
+[2020.06.15-04.23.25:812][738]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.15-04.23.26:065][739]Cmd: QUIT_EDITOR
+[2020.06.15-04.23.26:065][739]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.06.15-04.23.26:080][739]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.06.15-04.23.26:844][739]LogExit: Preparing to exit.
+[2020.06.15-04.23.27:076][739]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.27:079][739]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.27:081][739]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.27:084][739]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.27:086][739]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.27:089][739]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.27:127][739]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.06.15-04.23.27:134][739]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.15-04.23.27:135][739]LogExit: Editor shut down
+[2020.06.15-04.23.27:135][739]LogExit: Transaction tracking system shut down
+[2020.06.15-04.23.27:283][739]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001D4E1873880), frame # 33739
+[2020.06.15-04.23.27:283][739]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D4E186E5C0), frame # 33739
+[2020.06.15-04.23.27:283][739]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D4E18E4800), frame # 33739
+[2020.06.15-04.23.27:308][739]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D48B0CA800), frame # 33739
+[2020.06.15-04.23.27:308][739]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D48B0FEC00), frame # 33739
+[2020.06.15-04.23.27:375][739]LogExit: Object subsystem successfully closed.
+[2020.06.15-04.23.27:408][739]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.06.15-04.23.27:438][739]LogModuleManager: Shutting down and abandoning module BlueprintGraph (798)
+[2020.06.15-04.23.27:438][739]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (796)
+[2020.06.15-04.23.27:438][739]LogModuleManager: Shutting down and abandoning module Voice (794)
+[2020.06.15-04.23.27:438][739]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2020.06.15-04.23.27:438][739]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2020.06.15-04.23.27:438][739]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (780)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module StatsViewer (778)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.06.15-04.23.27:439][739]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.06.15-04.23.27:440][739]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.06.15-04.23.27:441][739]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.06.15-04.23.27:441][739]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.06.15-04.23.27:441][739]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.06.15-04.23.27:441][739]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.06.15-04.23.27:441][739]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.06.15-04.23.28:434][739]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.06.15-04.23.28:435][739]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.06.15-04.23.28:435][739]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.06.15-04.23.28:435][739]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.06.15-04.23.28:435][739]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.06.15-04.23.28:435][739]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.06.15-04.23.28:435][739]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.06.15-04.23.28:435][739]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.06.15-04.23.28:468][739]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.06.15-04.23.28:475][739]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.06.15-04.23.28:475][739]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.06.15-04.23.28:476][739]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.06.15-04.23.28:477][739]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.06.15-04.23.28:495][739]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.06.15-04.23.28:496][739]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.06.15-04.23.28:497][739]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.06.15-04.23.28:597][739]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.06.15-04.23.28:698][739]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.06.15-04.23.28:698][739]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.06.15-04.23.28:698][739]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.06.15-04.23.28:699][739]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.06.15-04.23.28:699][739]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.06.15-04.23.28:699][739]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.06.15-04.23.28:699][739]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.06.15-04.23.28:699][739]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.06.15-04.23.28:699][739]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.06.15-04.23.28:699][739]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.06.15-04.23.28:701][739]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.06.15-04.23.28:701][739]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.06.15-04.23.28:701][739]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.06.15-04.23.28:701][739]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.06.15-04.23.28:701][739]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.06.15-04.23.28:701][739]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.06.15-04.23.28:702][739]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.06.15-04.23.28:702][739]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.06.15-04.23.28:702][739]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.06.15-04.23.28:704][739]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.06.15-04.23.28:704][739]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.06.15-04.23.28:705][739]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.06.15-04.23.28:706][739]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.06.15-04.23.28:706][739]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.06.15-04.23.28:706][739]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.06.15-04.23.28:706][739]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.06.15-04.23.28:706][739]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.06.15-04.23.28:709][739]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.06.15-04.23.28:710][739]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.06.15-04.23.28:710][739]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.06.15-04.23.28:710][739]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.06.15-04.23.28:712][739]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.06.15-04.23.28:713][739]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.06.15-04.23.28:715][739]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.06.15-04.23.28:716][739]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.06.15-04.23.28:717][739]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.06.15-04.23.28:718][739]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.06.15-04.23.28:719][739]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.06.15-04.23.28:723][739]LogHMD: Freeing OpenVRDLLHandle.
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.06.15-04.23.28:723][739]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.06.15-04.23.28:725][739]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.06.15-04.23.28:725][739]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.06.15-04.23.28:733][739]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.06.15-04.23.28:733][739]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.06.15-04.23.28:733][739]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B830E60E2-4839-8F63-BD73-DDBE16CD0C34%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.1-13594126%2B%2B%2BUE4%2BRelease-4.25&UserID=504613bc44ceb0cf77900ea8690093de%7Cf8af922a1a6a4760935583d03e30404a%7Cf39f4442-e7cd-492c-80c8-59b2b7be8be6&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.06.15-04.23.28:742][739]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.06.15-04.23.28:744][739]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.06.15-04.23.28:746][739]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.06.15-04.23.28:746][739]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.06.15-04.23.28:746][739]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.06.15-04.23.28:747][739]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.06.15-04.23.28:748][739]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.06.15-04.23.28:749][739]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.06.15-04.23.28:749][739]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.06.15-04.23.28:750][739]LogD3D11RHI: Shutdown
+[2020.06.15-04.23.28:750][739]LogD3D11RHI: CleanupD3DDevice
+[2020.06.15-04.23.28:765][739]LogExit: Exiting.
+[2020.06.15-04.23.28:805][739]Log file closed, 06/15/20 09:53:28
