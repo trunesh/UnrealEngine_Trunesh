@@ -3135,3 +3135,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.15-07.11.11:142][825]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.15-07.11.11:142][825]LogContentValidation: Display: Validating World /Game/Pinball_Trunesh.Pinball_Trunesh
 [2020.06.15-07.11.11:142][825]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Pinball_Trunesh_BuiltData.Pinball_Trunesh_BuiltData
+[2020.06.15-07.13.01:077][931]LogEditorViewport: Clicking on Actor (LMB): BP_Ball_C (BP_Ball12)
+[2020.06.15-07.13.02:109][988]Cmd: DELETE
+[2020.06.15-07.13.02:109][988]Cmd: ACTOR DELETE
+[2020.06.15-07.13.02:113][988]LogEditorActor: Deleted Actor: BP_Ball_C
+[2020.06.15-07.13.02:148][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.06.15-07.13.02:195][988]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2020.06.15-07.13.04:029][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.06.15-07.13.04:090][ 87]LogSavePackage: Moving '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Pinball_Trunesh6ABFC46F4CA3C352DDD463A657E35B47.tmp' to '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Pinball_Trunesh.umap'
+[2020.06.15-07.13.04:144][ 87]LogSavePackage: Moving '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Saved/Pinball_Trunesh_BuiltData8755919A49BF57B2DE512FAE5C98F705.tmp' to '../../../../Testing Unrealengine/My own repository copy unreal engine trunesh/UnrealEngine_Trunesh/pinball_Trunesh/Content/Pinball_Trunesh_BuiltData.uasset'
+[2020.06.15-07.13.04:164][ 87]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.15-07.13.04:164][ 87]LogContentValidation: Display: Validating World /Game/Pinball_Trunesh.Pinball_Trunesh
+[2020.06.15-07.13.04:164][ 87]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Pinball_Trunesh_BuiltData.Pinball_Trunesh_BuiltData
